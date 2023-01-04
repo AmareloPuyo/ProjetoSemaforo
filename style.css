@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+#imagem{
+    display: flex;
+    justify-content: center;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+}
+button{
+    font-size: 1.2em;
+    width: 120px;
+    padding: 6px;
+}
